@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.icon {
+    width: 24px;
+}
+.bgcolor {
+    background-color: #e6f2ff;
+}
+.hov:hover {
+    transform: scale(110%);
+}
+input[type="text"]:focus {
+    border: 2px solid rgb(73, 73, 160);
+}
+.span {
+    color: #f00;
+}
+a {
+    text-decoration: none;
+}
+@media screen and (max-width: 576px) {
+    .header {
+        text-align: center;
+    }
+    h5 {
+        font-size: small;
+    }
+    .about,
+    h6 {
+        text-align: center;
+    }
+    .align {
+        text-align: center;
+        margin-left: 2px;
+    }
+    .foot-text {
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+    }
+}
